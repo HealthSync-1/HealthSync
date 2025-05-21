@@ -164,6 +164,11 @@ header {
   width: 100%; 
 }
 
+#search {
+  display: flex;
+  justify-content: left;
+}
+
 /* Hero e Botão */
 .hero {
   background: linear-gradient(110deg, #f0f0f0 70%, #e0ffe4 100%);

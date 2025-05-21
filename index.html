@@ -22,13 +22,13 @@
         <li class="nav-search-mobile">
           <form id="search-form-mobile">
             <input type="text" id="search-mobile" placeholder="Pesquisar..." aria-label="Pesquisar">
-            <button type="submit" aria-label="Buscar">🔍</button>
+            <button type="submit" aria-label="Buscar">Buscar</button>
           </form>
         </li>
       </ul>
       <form id="search-form" class="nav-search-desktop">
         <input type="text" id="search" placeholder="Pesquisar no site..." aria-label="Pesquisar">
-        <button type="submit" aria-label="Buscar">🔍</button>
+        <button type="submit" aria-label="Buscar">Buscar</button>
       </form>
     </nav>
   </header>
@@ -109,7 +109,24 @@
     <p>&copy; 2025 - IMREA | Instituto de Medicina Física e Reabilitação</p>
     <p>Av. Dr. Enéas de Carvalho Aguiar, 255 - São Paulo, SP</p>
   </footer>
+
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "SEU-INTEGRATION-ID", // ID único da integração
+      region: "us-south", // região, ex: us-south
+      serviceInstanceID: "SEU-SERVICE-INSTANCE-ID", // ID da instância
+      onLoad: function (instance) { instance.render(); }
+    };
+    setTimeout(function () {
+      const t = document.createElement('script');
+      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/latest/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+
+
   <script src="./js/script.js"></script>
+
 </body>
 
 </html>
