@@ -110,23 +110,23 @@
     <p>Av. Dr. Enéas de Carvalho Aguiar, 255 - São Paulo, SP</p>
   </footer>
 
-  <script>
-    window.watsonAssistantChatOptions = {
-      integrationID: "SEU-INTEGRATION-ID", // ID único da integração
-      region: "us-south", // região, ex: us-south
-      serviceInstanceID: "SEU-SERVICE-INSTANCE-ID", // ID da instância
-      onLoad: function (instance) { instance.render(); }
-    };
-    setTimeout(function () {
-      const t = document.createElement('script');
-      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/latest/WatsonAssistantChatEntry.js";
-      document.head.appendChild(t);
-    });
-  </script>
-
-
   <script src="./js/script.js"></script>
 
 </body>
+
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "SEU-INTEGRATION-ID", // ID único da integração
+      region: "us-south", // região, ex: us-south
+      serviceInstanceID: "SEU-SERVICE-INSTANCE-ID", // ID da instância
+      onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/latest/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
 
 </html>
