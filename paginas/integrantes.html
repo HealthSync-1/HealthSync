@@ -8,17 +8,24 @@
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="nav">
       <div class="logo">IMREA</div>
-      <ul>
-        <li><a href="../index.html">Início</a></li>
-        <li><a href="./integrantes.html" class="active">Equipe</a></li>
-        <li><a href="./faq.html">FAQ</a></li>
-        <li><a href="./contato.html">Contato</a></li>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="active">Início</a></li>
+        <li><a href="./paginas/integrantes.html">Equipe</a></li>
+        <li><a href="./paginas/faq.html">FAQ</a></li>
+        <li><a href="./paginas/contato.html">Contato</a></li>
+        <li class="nav-search-mobile">
+          <form id="search-form-mobile">
+            <input type="text" id="search-mobile" placeholder="Pesquisar..." aria-label="Pesquisar">
+            <button type="submit" aria-label="Buscar">🔍</button>
+          </form>
+        </li>
       </ul>
-      <form id="search-form">
+      <form id="search-form" class="nav-search-desktop">
         <input type="text" id="search" placeholder="Pesquisar no site..." aria-label="Pesquisar">
-        <button type="submit">🔍</button>
+        <button type="submit" aria-label="Buscar">🔍</button>
       </form>
     </nav>
   </header>
@@ -28,25 +35,34 @@
       <div class="integrantes-lista">
         <!-- Integrante 1 -->
         <div class="card-integrante">
-          <img src="img/integrante1.jpg" alt="Foto de Maria Souza" />
+          <img src="../img/Maicon.jpg" alt="Foto de Maicon Douglas" />
           <div>
-            <h2>Maria Souza</h2>
-            <p>RM: 123456 | Turma: 1TDSPI</p>
+            <h2>Maicon Douglas</h2>
+            <p>RM: 561279 | Turma: 1TDSPW</p>
             <a href="https://github.com/mariadev" target="_blank">GitHub</a> |
             <a href="https://linkedin.com/in/mariadev" target="_blank">LinkedIn</a>
           </div>
         </div>
         <!-- Integrante 2 -->
         <div class="card-integrante">
-          <img src="img/integrante2.jpg" alt="Foto de João Oliveira" />
+          <img src="img/integrante2.jpg" alt="Foto de Richard Freitas" />
           <div>
-            <h2>João Oliveira</h2>
-            <p>RM: 654321 | Turma: 1TDSPI</p>
+            <h2>Richard Freitas</h2>
+            <p>RM: 566127 | Turma: 1TDSPW</p>
             <a href="https://github.com/joaodev" target="_blank">GitHub</a> |
             <a href="https://linkedin.com/in/joaodev" target="_blank">LinkedIn</a>
           </div>
         </div>
-        <!-- Adicione mais integrantes se necessário -->
+        <!-- Integrante 3 -->
+         <div class="card-integrante">
+          <img src="../img/Pedro.png" alt="Foto de Pedro Henrique" />
+          <div>
+            <h2>Pedro Henrique</h2>
+            <p>RM: 563062 | Turma: 1TDSPJ</p>
+            <a href="https://github.com/joaodev" target="_blank">GitHub</a> |
+            <a href="https://linkedin.com/in/joaodev" target="_blank">LinkedIn</a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
