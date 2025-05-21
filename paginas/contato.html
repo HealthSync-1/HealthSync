@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contato - IMREA</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">IMREA</div>
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="./integrantes.html">Equipe</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="./contato.html" class="active">Contato</a></li>
+      </ul>
+      <form id="search-form">
+        <input type="text" id="search" placeholder="Pesquisar no site..." aria-label="Pesquisar">
+        <button type="submit">🔍</button>
+      </form>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Entre em Contato</h1>
+      <form onsubmit="return validarFormulario()">
+        <input type="text" id="nome" placeholder="Seu nome" required />
+        <input type="email" id="email" placeholder="Seu e-mail" required />
+        <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+        <p id="erro"></p>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="contato-info">
+        <p><strong>Telefone:</strong> (11) 1234-5678</p>
+        <p><strong>WhatsApp:</strong> (11) 98765-4321</p>
+        <p><strong>Endereço:</strong> Av. Dr. Enéas de Carvalho Aguiar, 255 - São Paulo, SP</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 - IMREA | Instituto de Medicina Física e Reabilitação</p>
+    <p>Av. Dr. Enéas de Carvalho Aguiar, 255 - São Paulo, SP</p>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+</html>
