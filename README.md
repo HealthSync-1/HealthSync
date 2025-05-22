@@ -53,6 +53,16 @@ Desenvolver o **site institucional do IMREA** (Instituto de Medicina Física e R
 
 ![image](https://github.com/user-attachments/assets/4f364f9a-d55c-45b9-86b8-7493e899c124)
 
+---
+
+![image](https://github.com/user-attachments/assets/cc7ca238-d7a0-426f-9ca8-bbdfab19b810)
+
+---
+
+![image](https://github.com/user-attachments/assets/b0ef1d9c-f2ba-43a3-9785-7046201d3b1c)
+
+
+
 
 <div align="center">
 
