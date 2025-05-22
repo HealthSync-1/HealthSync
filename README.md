@@ -47,6 +47,8 @@ Desenvolver o **site institucional do IMREA** (Instituto de Medicina Física e R
 
 ---  
 
-<div align="center">  
+<div align="center">
+<img ![image](https://github.com/user-attachments/assets/2abec0c3-c8fb-4fcc-9cb0-297da1d34ac2) alt="imrea">
+
 📌 Projeto desenvolvido para o desafio do Hospital das Clínicas  
 </div>  
