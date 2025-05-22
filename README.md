@@ -1,50 +1,52 @@
-🎯 Resumo do Projeto
-Este projeto consiste no desenvolvimento do site institucional para o IMREA (Instituto de Medicina Física e Reabilitação do Hospital das Clínicas), com o objetivo de orientar pacientes sobre o processo de teleconsulta, facilitar o contato e promover informações de forma acessível e responsiva.
+# 🌐 IMREA - Site Institucional  
 
-O site foi planejado para garantir acessibilidade, responsividade, usabilidade e design moderno, além de documentar todo o desenvolvimento no GitHub, conforme as exigências do desafio.
+<div align="center">  
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">  
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">  
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">  
+  <img src="https://img.shields.io/badge/Accessibility-FFA500?style=for-the-badge&logo=accessibility&logoColor=white" alt="Acessibilidade">  
+</div>  
 
-🖥️ Funcionalidades & Estrutura
-Página Inicial (index.html):
-Explica o processo de preparo para a teleconsulta passo a passo, com ilustrações, seções didáticas e chamada para agendamento.
+## 🎯 Objetivo  
+Desenvolver o **site institucional do IMREA** (Instituto de Medicina Física e Reabilitação do HC) para:  
+✔️ Orientar pacientes sobre teleconsultas  
+✔️ Facilitar contato e agendamento  
+✔️ Promover informações de forma **acessível, responsiva e moderna**  
 
-Página de Integrantes:
-Lista fotos, nomes, RMs, turma e links para GitHub/LinkedIn de todos os membros da equipe.
+---  
 
-FAQ (Perguntas Frequentes):
-Responde dúvidas comuns sobre a teleconsulta, acesso ao app e agendamento.
+## 🖥️ Funcionalidades  
 
-Página de Contato:
-Formulário validado em JavaScript para dúvidas, sugestões ou problemas técnicos, com informações de contato direto.
+### 🏠 **Página Inicial** (`index.html`)  
+- Guia passo a passo para teleconsulta  
+- Ilustrações didáticas + botão de agendamento  
 
-Design responsivo:
-Compatível com celulares, tablets e desktops (breakpoints em 600px, 768px, 992px e 1300px).
+### 👥 **Integrantes**  
+- Richard Freitas - RM: 566127
+- Maicon Douglas - RM: 561279 
+- Pedro Henrique - RM: 563062
 
-Header elegante e responsivo:
-Menu adaptável com botão hambúrguer, barra de busca e navegação intuitiva em qualquer tela.
+### ❓ **FAQ**  
+- Respostas para dúvidas comuns (acesso ao app, agendamento, etc.)  
 
-💡 Diferenciais Técnicos
-HTML Semântico: Uso adequado de <section>, <nav>, <header>, <footer>, <main>, <details>, <form> etc.
+### 📧 **Contato**  
+- Formulário com validação em JavaScript  
+- Informações diretas para suporte  
 
-CSS Otimizado:
+### 🌟 **Destaques Técnicos**  
+- **HTML Semântico**: `<section>`, `<nav>`, `<details>`, etc.  
+- **CSS Moderno**: Cores institucionais, animações, responsividade (4 breakpoints)  
+- **JavaScript**: Validações, menu mobile, interatividade  
+- **Acessibilidade**: Contrastes, `alt` em imagens, navegação por teclado  
 
-Paleta de cores institucional (inspirada no Hospital das Clínicas).
+---  
 
-Componentes visuais modernos, cartões, botões com animação.
+## 🚀 Como Executar  
+1. Clone o repositório  
+2. Abra `index.html` no navegador  
 
-Responsividade total, evitando redundâncias e otimizando regras.
+---  
 
-JavaScript:
-
-Validação de formulários.
-
-Interatividade da barra de busca.
-
-Menu mobile com botão hambúrguer funcional.
-
-Acessibilidade:
-
-Imagens com alt.
-
-Navegação por teclado.
-
-Contraste de cores e fontes legíveis.
+<div align="center">  
+  📌 Projeto desenvolvido para o desafio do **Hospital das Clínicas**  
+</div>  
