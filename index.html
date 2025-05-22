@@ -101,7 +101,7 @@
 
     <section class="faq-cta">
       <h2>Dúvidas sobre o processo?</h2>
-      <a href="faq.html" class="btn-cta">Acesse o FAQ</a>
+      <a href="./paginas/faq.html" class="btn-cta">Acesse o FAQ</a>
     </section>
   </main>
 
@@ -112,22 +112,23 @@
 
   <script src="./js/script.js"></script>
 
-
-</body>
-
+  <!-- Remova o script atual e substitua por este no final do <body> -->
 <script>
   window.watsonAssistantChatOptions = {
-      integrationID: "SEU-INTEGRATION-ID", // ID único da integração
-      region: "us-south", // região, ex: us-south
-      serviceInstanceID: "SEU-SERVICE-INSTANCE-ID", // ID da instância
-      onLoad: function(instance) { instance.render(); }
+    integrationID: "62834adc-b748-49c3-89fe-fa2afbfcd58b", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "0e2ee1c0-7af0-4625-9e8c-eed491c78100", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
   };
   setTimeout(function(){
     const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/latest/WatsonAssistantChatEntry.js";
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
     document.head.appendChild(t);
   });
 </script>
+  
+</body>
+
 
 
 </html>

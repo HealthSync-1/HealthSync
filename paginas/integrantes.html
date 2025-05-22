@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Equipe IMREA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Equipe - IMREA</title>
   <link rel="stylesheet" href="../css/style.css" />
 </head>
+
 <body>
   <header>
     <nav class="nav">
@@ -13,7 +15,7 @@
       <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">&#9776;</button>
       <ul class="nav-links" id="nav-links">
         <li><a href="../index.html">Início</a></li>
-        <li><a href="./integrantes.html"class="active">Equipe</a></li>
+        <li><a href="./integrantes.html" class="active">Equipe</a></li>
         <li><a href="./faq.html">FAQ</a></li>
         <li><a href="./contato.html">Contato</a></li>
         <li class="nav-search-mobile">
@@ -49,12 +51,12 @@
           <div>
             <h2>Richard Freitas</h2>
             <p>RM: 566127 | Turma: 1TDSPW</p>
-            <a href="https://github.com/vlonerickk" target="_blank">GitHub</a> |
+            <a href="https://github.com/vlonerickk" target="_blank">Github</a> |
             <a href="https://linkedin.com/in/richard-freitas" target="_blank">LinkedIn</a>
           </div>
         </div>
         <!-- Integrante 3 -->
-         <div class="card-integrante">
+        <div class="card-integrante">
           <img src="../img/Pedro.png" alt="Foto de Pedro Henrique" />
           <div>
             <h2>Pedro Henrique</h2>
@@ -71,5 +73,20 @@
     <p>Av. Dr. Enéas de Carvalho Aguiar, 255 - São Paulo, SP</p>
   </footer>
   <script src="../js/script.js"></script>
+  <!-- Remova o script atual e substitua por este no final do <body> -->
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "62834adc-b748-49c3-89fe-fa2afbfcd58b", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "0e2ee1c0-7af0-4625-9e8c-eed491c78100", // The ID of your service instance.
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function () {
+      const t = document.createElement('script');
+      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
 </body>
+
 </html>
