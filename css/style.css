@@ -92,6 +92,7 @@ header {
 }
 .nav-search-desktop button:hover, #search-form button:hover, #search-form-mobile button:hover {
   background: #005042;
+
 }
 .nav-search-mobile { 
   display: none; 
@@ -164,10 +165,7 @@ header {
   width: 100%; 
 }
 
-#search {
-  display: flex;
-  justify-content: left;
-}
+
 
 /* Hero e Botão */
 .hero {
@@ -444,4 +442,49 @@ form button:hover {
   }
   .hero { padding: 100px 0 60px 0; 
   }
+}
+/* Estilo para o container do Watson Assistant */
+.watson-assistant-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+/* Estilo para o botão do chat */
+.watson-assistant-container .launcher {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #0062FF !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+
+/* Estilo para a janela do chat */
+.watson-assistant-container .chat-container {
+    width: 380px;
+    height: 600px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .watson-assistant-container {
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    .watson-assistant-container .chat-container {
+        width: calc(100vw - 20px);
+        height: 70vh;
+        right: 0;
+        bottom: 70px;
+    }
 }
