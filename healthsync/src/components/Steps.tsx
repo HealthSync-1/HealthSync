@@ -1,4 +1,7 @@
-export type Step = { icon: string; title: string; content: JSX.Element | string };
+import type { ReactNode } from "react";
+
+
+export type Step = { icon: string; title: string; content: ReactNode };
 
 
 export default function Steps({ items }: { items: Step[] }) {
