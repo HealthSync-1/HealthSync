@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* helpers opcionais */
+@layer components {
+    .container-max {
+        @apply max-w-[1300px] mx-auto px-4;
+    }
+
+    .btn-cta {
+        @apply inline-block bg-imrea-green text-white px-7 py-3 rounded hover:bg-[#00493f] transition-transform duration-200 hover:-translate-y-0.5 hover:scale-105;
+    }
+
+    .card {
+        @apply bg-[#f9f9f9] rounded shadow-md;
+    }
+}
